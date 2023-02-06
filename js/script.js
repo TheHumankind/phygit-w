@@ -1,5 +1,7 @@
 import { phygitSlider } from "./slider.js";
 
+// slider initialisation
+
 const mainSlider = new phygitSlider();
 
 mainSlider.changeSlide();
@@ -29,3 +31,5 @@ const partnersSlider = new Swiper('.partners-slider', {
         delay: 3000,
     }
 });
+
+// window on scroll
