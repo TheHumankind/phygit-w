@@ -1,0 +1,46 @@
+.why {
+    width: 100%;
+    padding: 130px 0px;
+}
+
+.why > .container {
+    margin: 0 auto;
+}
+
+.why-points {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.why-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 46%;
+    width: 100%;
+    height: 200px;
+}
+
+.why-card > .card-header {
+    margin-top: 20px;
+}
+
+.why-card-image {
+    max-width: 70px;
+}
+
+.why-card-image > img {
+    width: 100%;
+}
+
+.why-card-descr {
+    margin-top: 15px;
+    max-width: 273px;
+    text-align: center;
+}

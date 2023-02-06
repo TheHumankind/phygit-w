@@ -1,0 +1,117 @@
+.phygital {
+    padding: 128px 0px 64px 0px;
+}
+
+.phygital > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    column-gap: 20px;
+}
+
+.phygital > .container > .h2 {
+    text-align: center;
+}
+
+.phygital-descr, .phygital-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.phygital-image > img{
+    max-width: 570px;
+    width: 100%;
+}
+
+.phygital-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 25px;
+}
+
+.phygital-list .text {
+    text-align: left;
+}
+
+.phygital-list-item {
+    display: flex;
+    max-width: 420px;
+}
+
+.phygiatal-list-descr {
+    width: 100%;
+}
+
+.phygital-list-item > img {
+    max-width: 50px;
+    margin-right: 15px;
+}
+
+.phygital-formula {
+    margin-top: 30px;
+}
+
+.phygital-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 24px;
+    height: 540px;
+    border-radius: 8px;
+    background-color: var(--bg-gray);
+    box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
+}
+
+.phygital-wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.phygital-item {
+    flex-basis: 50%;
+}
+
+.phygit-label {
+    position: relative;
+    width: 100%;
+}
+
+.phygit-input {
+    width: 100%;
+    height: 42px;
+    padding: 12px 21px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+}
+
+.phygit-textarea {
+    height: auto;
+    resize: none;
+}
+
+.phygit-input::placeholder, option, datalist {
+    color: rgba(36, 36, 34, .5);
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.phygit-input:focus {
+    outline: auto;
+    outline-color: var(--blue-text-color);
+}
+
+.align-items-start {
+    align-items: flex-start;
+    max-width: 95%
+}

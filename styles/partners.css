@@ -1,0 +1,36 @@
+.partners {
+    display: flex;
+    justify-content: center;
+    padding: 128px 0px
+}
+
+.partners > .container {
+    max-width: 1250px;
+    box-sizing: content-box;
+}
+
+.partners-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+}
+
+.partners-slide > img {
+    width: 100%;
+}
+
+.partners-wrapper {
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.partners-descr {
+    width: 100%;
+    margin-top: 128px;
+    padding-bottom: 64px;
+}
+
+.partners-descr .divider {
+    margin-bottom: 60px;
+}
