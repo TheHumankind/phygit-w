@@ -31,5 +31,3 @@ const partnersSlider = new Swiper('.partners-slider', {
         delay: 3000,
     }
 });
-
-// window on scroll
