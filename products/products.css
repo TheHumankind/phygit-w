@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.product-presentaintion-e-card, .product-presentaintion-e-label {
+.product-presentaintion-e-card, .product-presentaintion-e-label, .product-presentaintion-e-video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     background-repeat: no-repeat;
 }
 
-.product-presentaintion-e-card, .product-presentaintion-e-label h1 {
+.product-presentaintion-e-card, .product-presentaintion-e-label, .product-presentaintion-e-video h1 {
     font-size: 64px;
 }
 
@@ -23,6 +23,11 @@
 .product-presentaintion-e-label {
     background-image: url('../assets/images/e-label.png');
 }
+
+.product-presentaintion-e-video {
+    background-image: url('../assets/images/e-video.png');
+}
+
 
 .product-subheader {
     font-size: 24px;
