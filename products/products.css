@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.product-presentaintion-e-card {
+.product-presentaintion-e-card, .product-presentaintion-e-label, .product-presentaintion-e-video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,13 +12,22 @@
     background-repeat: no-repeat;
 }
 
+.product-presentaintion-e-card, .product-presentaintion-e-label, .product-presentaintion-e-video h1 {
+    font-size: 64px;
+}
+
 .product-presentaintion-e-card {
     background-image: url('../assets/images/e-card.png');
 }
 
-.product-presentaintion-e-card h1 {
-    font-size: 72px;
+.product-presentaintion-e-label {
+    background-image: url('../assets/images/e-label.png');
 }
+
+.product-presentaintion-e-video {
+    background-image: url('../assets/images/e-video.png');
+}
+
 
 .product-subheader {
     font-size: 24px;
@@ -33,7 +42,13 @@
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 40px;
+    column-gap: 40px;
     margin-top: 60px;
+}
+
+.product-list-item {
+
+    text-align: center;
 }
 
 .product-item {

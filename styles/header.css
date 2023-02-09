@@ -31,14 +31,17 @@
 
 .header-nav-item {
     position: relative;
-    margin: 10px 17.5px;
+    display: flex;
+    align-items: center;
+    padding: 10px 17.5px;
+    height: 80px;
     transition: .2s;
 }
 
 .header-nav-item::after {
     content: '';
     position: absolute;
-    bottom: -10px;
+    bottom: 20px;
     left: 0px;
     width: 0%;
     height: 2px;
@@ -67,4 +70,27 @@
     width: 100%;
 }
 
+.dropdown {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 0px;
+    row-gap: 0px;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 2px;
+    transform: translate(-50%, 100%);
+    transition: .2s;
+    overflow: hidden;
+}
 
+.header-nav-item:hover > .dropdown {
+    padding: 20px 0px;
+    row-gap: 10px;
+    box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
+    height: auto;
+}
