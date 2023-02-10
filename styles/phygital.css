@@ -79,6 +79,11 @@
 
 .phygital-item {
     flex-basis: 50%;
+    flex-wrap: 1;
+}
+
+.phygital-item-100 {
+    flex-basis: 100%;
 }
 
 .phygit-label {
