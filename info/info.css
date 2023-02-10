@@ -1,0 +1,108 @@
+.info {
+
+}
+
+.help-center-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 326px;
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.help-center-header {
+    background-image: url('../assets/images/phygit-help-center.png');
+}
+
+
+.help-center-header h1 {
+    font-size: 64px;
+}
+
+.info-questions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.info-questions-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 31%;
+    padding: 30px;
+    height: 184px;
+    box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
+}
+
+.info-questions-link {
+    margin-top: auto;
+}
+
+.info-activate {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    margin-top: 80px;
+}
+
+.info-activate-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 65px;
+}
+
+.circle-box {
+    display: flex;
+    position: absolute;
+    left: -65px;
+    top: 0;
+    height: 100%;
+    width: 50px;
+}
+
+.info-activate-item > .header-24px {
+    text-align-last: left;
+    margin-top: 0;
+}
+
+.info-activate-text {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: var(--main-phygit-color);
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.divider {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 50%;
+    width: 3px;
+    height: calc(100% - 50px);
+    background-color: var(--main-phygit-color);
+    transform: translate(-50%, 0);
+}
+
