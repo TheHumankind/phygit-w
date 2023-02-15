@@ -1,7 +1,3 @@
-.info {
-
-}
-
 .help-center-header {
     display: flex;
     justify-content: center;
@@ -71,7 +67,7 @@
     width: 50px;
 }
 
-.info-activate-item > .header-24px {
+.info-activate-item > .bold-24px {
     text-align-last: left;
     margin-top: 0;
 }
@@ -79,6 +75,40 @@
 .info-activate-text {
     font-size: 18px;
     margin-top: 25px;
+}
+
+.info-share {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.info-share-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info-share-item .bold-24px{
+    text-align: left;
+}
+
+.info-share-item > img {
+    width: 650px;
+    margin: 0 auto;
+}
+
+
+.info-share-item-descr > .text {
+    justify-content: flex-start;
+}
+
+.info-share-item-descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .circle {
@@ -106,3 +136,126 @@
     transform: translate(-50%, 0);
 }
 
+.swiper-instruction-container, .swiper-instruction-1, .swiper-instruction-2, .swiper-instruction-3 {
+    width: 100%;
+    height: 500px;
+}
+
+.swiper-instruction-1, .swiper-instruction-2, .swiper-instruction-3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.opacity-0 {
+    opacity: 0;
+    z-index: -1000;
+}
+
+.swiper-instruction-container {
+    position: relative;
+}
+
+.swiper-insturction-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 58px;
+    margin: 40px 0px;
+    border-bottom: 1px solid;
+    border-bottom-color: rgba(36, 36, 34, .2);
+}
+
+#firstSliderBtn, #secondSliderBtn, #thirdSliderBtn {
+    display: flex;
+    justify-content: center;
+    width: 222px;
+    height: 100%;
+    padding: 15px 20px;
+    background-color: #fff;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: var(--main-text-color);
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: .2s;
+}
+
+.instruction-item > img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-none-border {
+    border: none;
+}
+
+.active-control {
+    border-bottom: 2px solid var(--main-phygit-color);
+}
+
+.compatibility-list {
+    width: 100%;
+    height: 100%;
+}
+
+.compatibility-list-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(36, 36, 34, .2);
+}
+
+.plus {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: 25px;
+    top: 18px;
+}
+
+.plus::after, .plus::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--main-text-color);
+    transition: .6s;
+}
+
+.plus::after {
+    width: 100%;
+    height: 2px;
+}
+
+.plus::before {
+    height: 100%;
+    width: 2px;
+}
+
+.minus::before{
+    height: 0%;
+}
+
+.compatibility-sublist {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+    max-height: 0;
+    list-style: inside;
+    overflow: hidden;
+    transition: .6s;
+}
+
+.compatibility-list-opened {
+    max-height: 2000px;
+    margin-bottom: 20px;
+}
