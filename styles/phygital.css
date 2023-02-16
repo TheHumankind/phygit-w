@@ -78,7 +78,18 @@
 }
 
 .phygital-item {
+    max-width: 50%;
     flex-basis: 50%;
+    flex-wrap: 1;
+}
+
+.phygital-item > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.phygital-item-100 {
+    flex-basis: 100%;
 }
 
 .phygit-label {
@@ -96,15 +107,29 @@
     outline: none;
 }
 
+.phygital-video > iframe {
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
 .phygit-textarea {
     height: auto;
     resize: none;
 }
 
-.phygit-input::placeholder, option, datalist {
+.phygit-input::placeholder, option {
     color: rgba(36, 36, 34, .5);
     font-family: "IBM Plex Sans", sans-serif;
 }
+
+select {
+    color: rgba(36, 36, 34, .5);
+}
+  
+  select::-ms-expand {
+    display: none;
+  }
+
 
 .phygit-input:focus {
     outline: auto;

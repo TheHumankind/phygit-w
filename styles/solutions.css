@@ -41,3 +41,11 @@
     text-align: center;
     transform: translate(-50%, 30%);
 }
+
+.solutions-item > .card-descr-white {
+    bottom: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: rgba(0, 0, 0, 0);
+}

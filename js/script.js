@@ -1,5 +1,7 @@
 import { phygitSlider } from "./slider.js";
 
+// slider initialisation
+
 const mainSlider = new phygitSlider();
 
 mainSlider.changeSlide();
