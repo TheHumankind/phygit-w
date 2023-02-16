@@ -126,6 +126,11 @@ ul {
     line-height: 32px;
 }
 
+.regular-18px {
+    font-size: 18px;
+    line-height: 32px;
+}
+
 .text-margin {
     margin-top: 25px;
 }
@@ -178,6 +183,9 @@ ul {
 }
 
 .icon-box {
+    position: relative;
+    top: 20px;
+    align-self: flex-start;
     width: 50px;
     margin-right: 20px;
 }

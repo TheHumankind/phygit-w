@@ -78,8 +78,14 @@
 }
 
 .phygital-item {
+    max-width: 50%;
     flex-basis: 50%;
     flex-wrap: 1;
+}
+
+.phygital-item > img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 .phygital-item-100 {
