@@ -308,3 +308,27 @@
     bottom: 0px;
     color: var(--error);
 }
+
+
+.info-achivments {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.info-achivments-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 370px;
+    min-width: 280px;
+    background-color: red;
+}
+
+.info-achivments-item > img {
+    width: 50%;
+}
