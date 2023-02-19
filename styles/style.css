@@ -207,3 +207,8 @@ ul {
     text-decoration: underline;
     color: var(--main-phygit-color);
 }
+
+.green-link:visited {
+    text-decoration: underline;
+    color: var(--main-phygit-color);
+}
