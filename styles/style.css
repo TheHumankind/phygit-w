@@ -81,6 +81,16 @@ ul {
     text-align: center;
 }
 
+.bold-18px {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.regular-24px {
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .bold-24px {
     font-size: 24px;
     text-align: right;
@@ -191,4 +201,14 @@ ul {
 
 .btn-none-border {
     border: none;
+}
+
+.green-link {
+    text-decoration: underline;
+    color: var(--main-phygit-color);
+}
+
+.green-link:visited {
+    text-decoration: underline;
+    color: var(--main-phygit-color);
 }
