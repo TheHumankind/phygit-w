@@ -1,13 +1,17 @@
-.help-center-header {
-    background-image: url('../assets/images/phygit-help-center.png');
-}
-
 .container-flex-start {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    max-width: 1215px;
+    width: 100%;
+    margin: 0 auto;
     padding: 0px 20px;
+}
+
+
+.h1 {
+    font-size: 54px;
 }
 
 .link-list {
@@ -16,4 +20,15 @@
 
 .justify-content-start {
     justify-content: flex-start;
+}
+
+.policy-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 326px;
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('../assets/images/private.png');
 }
