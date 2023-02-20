@@ -343,7 +343,8 @@
 @media (max-width: 991px)  {
 
     .info-questions-item {
-        width: 100%;
+        width: 90%;
+        min-width: 45%;
     }
 
     .bold-24px {
