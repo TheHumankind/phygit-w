@@ -342,6 +342,14 @@
 
 @media (max-width: 991px)  {
 
+    .info-questions-item {
+        width: 100%;
+    }
+
+    .bold-24px {
+        text-align: center;
+    }
+
     .container h1 {
         font-size: 48px;
     }
