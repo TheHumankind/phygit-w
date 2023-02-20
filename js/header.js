@@ -1,6 +1,6 @@
 const burgerItem = document.getElementById('burger');
 const navMenu = document.getElementById('navMenu');
-const headerNavItems = document.querySelectorAll('.header-nav-item');
+const headerNavItems = document.querySelectorAll('.close');
 
 burgerItem.addEventListener('click', () => {
     burgerItem.classList.toggle('burger-cross')
