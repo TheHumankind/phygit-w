@@ -24,6 +24,7 @@
     flex-direction: column;
     max-width: 46%;
     width: 100%;
+    min-width: 320px;
     height: 200px;
 }
 

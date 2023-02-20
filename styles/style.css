@@ -35,8 +35,9 @@ ul {
 
 .container {
     max-width: 1215px;
-    width: 100%;
+    width: calc(100% - 40px);
     padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .container-column {
@@ -211,4 +212,29 @@ ul {
 .green-link:visited {
     text-decoration: underline;
     color: var(--main-phygit-color);
+}
+
+@media (max-width: 991px)  { 
+    .h2 {
+        font-size: 41px;
+    }
+
+    .bold-24px {
+        font-size: 23px;
+    }
+
+    .bold-34px {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px)  { 
+    .h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .regular-22px {
+        font-size: 20px;
+    }
 }

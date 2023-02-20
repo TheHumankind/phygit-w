@@ -10,7 +10,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     column-gap: 32px;
+    row-gap: 60px;
     margin-top: 60px;
 }
 
@@ -34,7 +36,8 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 332px;
+    max-width: 332px;
+    width: 110%;
     height: 88px;
     padding: 15px;
     background-color: var(--main-phygit-color);
@@ -48,4 +51,15 @@
     justify-content: center;
     align-items: flex-end;
     background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 768px)  { 
+    .solutions-item  .bold-24px {
+        margin: 0;
+    }
+
+    .solutions-item span {
+        display: block;
+        text-align: center;
+    }
 }

@@ -16,6 +16,20 @@ const useCasesSlider = new Swiper('.use-cases-slider', {
     spaceBetween: 30,
     autoplay: {
         delay: 3000,
+    },
+    breakpoints: {
+        992: {
+            slidesPerView: 4,
+        },
+        728: {
+            slidesPerView: 3,
+        },
+        600: {
+            slidesPerView: 2,
+        },
+        320: {
+            slidesPerView: 1,
+        }
     }
 });
 
@@ -29,5 +43,19 @@ const partnersSlider = new Swiper('.partners-slider', {
     spaceBetween: 30,
     autoplay: {
         delay: 3000,
+    },
+    breakpoints: {
+        992: {
+            slidesPerView: 5,
+        },
+        728: {
+            slidesPerView: 3,
+        },
+        600: {
+            slidesPerView: 3,
+        },
+        319: {
+            slidesPerView: 2,
+        }
     }
 });
