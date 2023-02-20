@@ -23,7 +23,7 @@
             <a href="#" class="header-logo">
                 <img src="./assets/icons/phygit-header-icon.svg" alt="phygit logo icon">
             </a>
-            <nav class="header-nav">
+            <nav class="header-nav" id="navMenu">
                 <ul class="header-nav-list">
                     <li class="header-nav-item">
                         <a href="#" class="header-nav-item-link"> 
@@ -102,6 +102,11 @@
                     </li>
                 </ul>
             </nav>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
     <section class="slider" id="sliderSection">
@@ -152,55 +157,60 @@
     </section>
     <section class="phygital">
         <div class="container">
-            <div class="phygital-descr">
-                <h2 class="h2">
-                    What is Phygital?
-                </h2>
-                <div class="phygital-formula">
-                    <span class="yellow">
-                        Physical
-                    </span> 
-                    + 
-                    <span class="blue">
-                        Digital
-                    </span> 
-                    = 
-                    <span class="green">
-                        Phygital
-                    </span>
-                    .
+            <div class="phygital-wrapper">
+                <div class="phygital-item">
+                    <h2 class="h2">
+                        What is Phygital?
+                    </h2>
+                    <div class="phygital-formula">
+                        <span class="yellow">
+                            Physical
+                        </span> 
+                        + 
+                        <span class="blue">
+                            Digital
+                        </span> 
+                        = 
+                        <span class="green">
+                            Phygital
+                        </span>
+                        .
+                    </div>
+                    <div class="text ta-center">
+                        Combination of two worlds in one product.
+                    </div>
+                    <div class="text text-margin ta-center">
+                        Next stage of product development.
+                    </div>
+                    <div class="text ta-center">
+                        New standard of modern business.
+                    </div>
                 </div>
-                <div class="text ta-center">
-                    Combination of two worlds in one product.
+                <div class="phygital-item">
+                    <img src="./assets/images/phygital.png" alt="phygital visualization">
                 </div>
-                <div class="text text-margin ta-center">
-                    Next stage of product development.
-                </div>
-                <div class="text ta-center">
-                    New standard of modern business.
-                </div>
-            </div>
-            <div class="phygital-image">
-                <img src="./assets/images/phygital.png" alt="phygital visualization">
             </div>
         </div>
     </section>
     <section class="phygital">
         <div class="container">
-            <div class="phygital-image">
-                <img src="./assets/images/how-it-works.gif" alt="phygital work visualization">
-            </div>
-            <div class="phygital-descr">
-                <h2 class="h2">
-                    How it Works
-                </h2>
-                <div class="text text-margin ta-center">
-                    We connect physical items with personal web-apps loaded with engagement user experiences and digital marketing tools via NFC tags or QR-codes.
+            <div class="phygital-wrapper reverse-direction">
+                <div class="phygital-item">
+                    <img src="./assets/images/how-it-works.gif" alt="phygital work visualization">
                 </div>
-                <div class="green text-margin ta-center">
-                    Without app installation!
+                <div class="phygital-item">
+                    <h2 class="h2">
+                        How it Works
+                    </h2>
+                    <div class="text text-margin ta-center">    
+                        We connect physical items with personal web-apps loaded with engagement user experiences and digital marketing tools via NFC tags or QR-codes.
+                    </div>
+                    <div class="green text-margin ta-center">
+                        Without app installation!
+                    </div>
                 </div>
             </div>
+            
         </div>
     </section>
     <section class="why">
@@ -263,35 +273,37 @@
     </section>
     <section class="phygital">
         <div class="container container-column">
-            <h2 class="h2">
-                What is Phygit?
-            </h2>
-            <div class="descr-block">
-                <div class="phygital-descr">
-                    <h2 class="bold-34px">
-                        Phygital CMS
-                    </h2>
-                    <div class="text text-margin ta-center">
-                        Phygit is a platform that allows creating your own phygital product. It’s like with interlocking bricks: you can build any asset you want, just choose the right components.
+                <h2 class="h2 phygital-item">
+                    What is Phygit?
+                </h2>
+                <div class="phygital-wrapper">
+                    <div class="phygital-item">
+                        <h2 class="bold-34px">
+                            Phygital CMS
+                        </h2>
+                        <div class="text text-margin ta-center">
+                            Phygit is a platform that allows creating your own phygital product. It’s like with interlocking bricks: you can build any asset you want, just choose the right components.
+                        </div>
+                    </div>
+                    <div class="phygital-item">
+                        <img src="./assets/images/what-is-phygit.png" alt="phygit cms image">
                     </div>
                 </div>
-                <div class="phygital-image">
-                    <img src="./assets/images/what-is-phygit.png" alt="phygit cms image">
-                </div>
-            </div>
         </div>
     </section>
     <section class="phygital">
         <div class="container">
-            <div class="phygital-image">
-                <img src="./assets/images/easy-start.gif" alt="phygital work visualization">
-            </div>
-            <div class="phygital-descr">
-                <h2 class="bold-34px">
-                    Easy to Start & Manage
-                </h2>
-                <div class="text text-margin ta-center">
-                    You don’t need to be an IT specialist, you don’t need experience in phygital world. Phygit is extremely easy to use and manage. All you need is time and a desire to create something innovative.
+            <div class="phygital-wrapper reverse-direction">
+                <div class="phygital-item">
+                    <img src="./assets/images/easy-start.gif" alt="phygital work visualization">
+                </div>
+                <div class="phygital-item">
+                    <h2 class="bold-34px">
+                        Easy to Start & Manage
+                    </h2>
+                    <div class="text text-margin ta-center">
+                        You don’t need to be an IT specialist, you don’t need experience in phygital world. Phygit is extremely easy to use and manage. All you need is time and a desire to create something innovative.
+                    </div>
                 </div>
             </div>
         </div>
@@ -492,8 +504,8 @@
                     You can combine several features in one product
                 </h3>
             </header>
-            <div class="descr-block">
-                <ul class="phygital-list">
+            <div class="phygital-wrapper">
+                <ul class="phygital-list phygital-item">
                     <li class="phygital-list-item">
                         <img src="./assets/icons/phygit-wow.svg" alt="wow icon">
                         <span class="text">
@@ -519,7 +531,7 @@
                         </span>
                     </li>
                 </ul>
-                <div class="phygital-image">
+                <div class="phygital-item">
                     <img src="./assets/images/phygit-benefits.png" alt="phygit benefits installation">
                 </div>
             </div>
@@ -811,6 +823,7 @@
     </footer>
     <script type="module" src="./js/swiper/swiper-bundle.min.js" defer></script>
     <script type="module" src="./js/slider.js" defer></script>
+    <script type="module" src="./js/header.js" defer></script>
     <script type="module" src="./js/script.js" defer>
     </script>
 </body>

@@ -60,3 +60,34 @@
     font-weight: 700; 
     text-transform: uppercase;
 }
+
+@media (max-width: 767px)  { 
+    .footer-header {
+        text-align: center;
+    }
+    .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+    .footer-list {
+        min-width: 45%;
+    }
+
+    .footer-list-item {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .footer-list:last-child {
+        flex-direction: row;
+        justify-content: center;
+        column-gap: 10px;
+    }
+
+    .footer-trademark {
+        text-align: center;
+    }
+}

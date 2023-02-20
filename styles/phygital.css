@@ -56,6 +56,7 @@
 
 .phygital-formula {
     margin-top: 30px;
+    text-align: center;
 }
 
 .phygital-form {
@@ -138,4 +139,34 @@ select {
 .align-items-start {
     align-items: flex-start;
     max-width: 95%
+}
+
+
+.phygital-wrapper .h2, .phygital-wrapper .bold-34px {
+    text-align: center;
+}
+
+@media (max-width: 767px)  {
+    
+    .phygital {
+        padding: 48px 0px 32px 0px;
+    }
+
+    .phygital-wrapper {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .phygital-item {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .reverse-direction {
+        flex-direction: column-reverse;
+    }
+
+    .phygital-list {
+        align-items: center;
+    }
 }

@@ -6,6 +6,7 @@
 
 .partners > .container {
     max-width: 1250px;
+    width: calc(100% - 40px);
     box-sizing: content-box;
 }
 
