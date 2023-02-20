@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../js/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="../products/products.css">     
     <link rel="stylesheet" href="../info/info.css">  
-    <title>Phygit | E-Card</title>
+    <title>Phygit | Help Center</title>
 </head>
 <body>
     <header class="header section" id="header">
@@ -21,20 +21,20 @@
             <a href="../index.html" class="header-logo">
                 <img src="../assets/icons/phygit-header-icon.svg" alt="phygit logo icon">
             </a>
-            <nav class="header-nav">
+            <nav class="header-nav" id="navMenu">
                 <ul class="header-nav-list">
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link"> 
+                        <a href="../index.html#about" class="header-nav-item-link"> 
                             About
                         </a>
                     </li>
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link">
+                        <a href="../index.html#useCases" class="header-nav-item-link">
                             Use Cases
                         </a>
                     </li>
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link">
+                        <a href="../index.html#sliderSection" class="header-nav-item-link">
                             Benefits
                         </a>
                     </li>
@@ -47,24 +47,24 @@
                         </a>
                         <ul class="dropdown">
                             <li class="dropdown-item">
-                                <a href="./e-card.html">
+                                <a href="../products/e-card.html">
                                     E-Card
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="./e-label.html">
+                                <a href="../products/e-label.html">
                                     E-Label
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="./e-video.html">
+                                <a href="../products/e-video.html">
                                     E-Video
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link">
+                        <a href="../index.html#start" class="header-nav-item-link">
                             How to Start
                         </a>
                     </li>
@@ -77,20 +77,34 @@
                         </a>
                         <ul class="dropdown">
                             <li class="dropdown-item">
-                                <a href="">
-                                    E-Card
+                                <a href="../info/help-center.html">
+                                    Help Center
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                2
+                                <a href="../info/technology.html">
+                                    Technology
+                                </a>
                             </li>
                             <li class="dropdown-item">
-                                3
+                                <a href="../info/contacts.html">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="../info/contacts.html#contacts">
+                                    Contacts
+                                </a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </nav>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
     <section class="help-center-header">
@@ -118,47 +132,47 @@
                     <h3 class="text ta-center">
                         NFC & QR
                     </h3>
-                    <a href="#" class="info-questions-link">
+                    <a href="#activate" class="info-questions-link">
                         learn more →
                     </a>
                 </div>
                 <div class="info-questions-item">
                     <h2 class="bold-24px">
-                        How to Activate 
+                        E-Card: How to Share
                     </h2>
                     <h3 class="text ta-center">
-                        NFC & QR
+                        Ways to share your E-Card
                     </h3>
-                    <a href="#" class="info-questions-link">
+                    <a href="#share" class="info-questions-link">
                         learn more →
                     </a>
                 </div>
                 <div class="info-questions-item">
                     <h2 class="bold-24px">
-                        How to Activate 
+                        E-Card: Features
                     </h2>
                     <h3 class="text ta-center">
-                        NFC & QR
+                        How to use
                     </h3>
-                    <a href="#" class="info-questions-link">
+                    <a href="#features" class="info-questions-link">
                         learn more →
                     </a>
                 </div>
                 <div class="info-questions-item">
                     <h2 class="bold-24px">
-                        How to Activate 
+                        Compatibility
                     </h2>
                     <h3 class="text ta-center">
-                        NFC & QR
+                        iOS & Android devices
                     </h3>
-                    <a href="#" class="info-questions-link">
+                    <a href="#compatibility" class="info-questions-link">
                         learn more →
                     </a>
                 </div>
             </div>
         </div>
     </section>
-    <section class="phygital">
+    <section class="phygital" id="activate">
         <div class="container container-column">
             <header class="section-header">
                 <h2 class="h2">
@@ -245,7 +259,7 @@
             </ul>
         </div>
     </section>
-    <section class="phygital gray-bg">
+    <section class="phygital gray-bg" id="share">
         <div class="container container-column">
             <header class="section-header">
                 <h2 class="h2">
@@ -343,14 +357,14 @@
             </ul>
         </div>
     </section>
-    <section class="section swiper-instruction gray-bg">
+    <section class="section swiper-instruction gray-bg" id="features">
         <div class="container container-column">
             <header class="section-header">
                 <h2 class="h2">
-                    Put Your E-Card Anywhere
+                    E-Card: Features
                 </h2>
                 <div class="product-subheader">
-                    Ideas for E-Card
+                    How to use
                 </div>
             </header>
             <div class="swiper-insturction-controls">
@@ -428,7 +442,7 @@
             </div>
         </div>
     </section>
-    <section class="phygital">
+    <section class="phygital" id="compatibility">
         <div class="container container-column">
             <header class="section-header">
                 <h2 class="h2">
@@ -438,7 +452,7 @@
                     iOS & Android devices
                 </h3>
             </header>
-            <div class="text">
+            <div class="text ta-center">
                 Some Androids are compatible but have NFC turned off in phone settings!
             </div>
             <ul class="compatibility-list">
@@ -957,22 +971,22 @@
                         phygit
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#about">
                             About
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#useCases">
                             Use Cases
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#sliderSection">
                             Benefits
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#start">
                             How to Start
                         </a>
                     </li>
@@ -982,17 +996,17 @@
                         products
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../products/e-card.html">
                             E-Card
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../products/e-label.html">
                             E-Label
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../products/e-video.html">
                             E-Video
                         </a>
                     </li>
@@ -1002,22 +1016,22 @@
                         INFO
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/help-center.html">
                             Help Center
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/technology.html">
                             Technology
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/contacts.html">
                             About Us
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/contacts.html#contacts">
                             Contacts
                         </a>
                     </li>
@@ -1027,12 +1041,12 @@
                         LEGAL
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../home/privacy-policy.html">
                             Privacy Policy
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../home/terms.html">
                             Terms of Use
                         </a>
                     </li>
@@ -1067,5 +1081,6 @@
     </footer>
     <script type="module" src="../js/swiper/swiper-bundle.min.js" defer></script>
     <script type="module" src="./help-center.js" defer></script>
+    <script type="module" src="../js/header.js" defer></script>
     </body>
 </html>

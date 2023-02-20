@@ -20,20 +20,20 @@
             <a href="../index.html" class="header-logo">
                 <img src="../assets/icons/phygit-header-icon.svg" alt="phygit logo icon">
             </a>
-            <nav class="header-nav">
+            <nav class="header-nav" id="navMenu">
                 <ul class="header-nav-list">
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link"> 
+                        <a href="../index.html#about" class="header-nav-item-link"> 
                             About
                         </a>
                     </li>
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link">
+                        <a href="../index.html#useCases" class="header-nav-item-link">
                             Use Cases
                         </a>
                     </li>
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link">
+                        <a href="../index.html#sliderSection" class="header-nav-item-link">
                             Benefits
                         </a>
                     </li>
@@ -46,24 +46,24 @@
                         </a>
                         <ul class="dropdown">
                             <li class="dropdown-item">
-                                <a href="./e-card.html">
+                                <a href="../products/e-card.html">
                                     E-Card
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="./e-label.html">
+                                <a href="../products/e-label.html">
                                     E-Label
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                <a href="./e-video.html">
+                                <a href="../products/e-video.html">
                                     E-Video
                                 </a>
                             </li>
                         </ul>
                     </li>
                     <li class="header-nav-item">
-                        <a href="#" class="header-nav-item-link">
+                        <a href="../index.html#start" class="header-nav-item-link">
                             How to Start
                         </a>
                     </li>
@@ -76,20 +76,34 @@
                         </a>
                         <ul class="dropdown">
                             <li class="dropdown-item">
-                                <a href="">
-                                    E-Card
+                                <a href="../info/help-center.html">
+                                    Help Center
                                 </a>
                             </li>
                             <li class="dropdown-item">
-                                2
+                                <a href="../info/technology.html">
+                                    Technology
+                                </a>
                             </li>
                             <li class="dropdown-item">
-                                3
+                                <a href="../info/contacts.html">
+                                    About Us
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="../info/contacts.html#contacts">
+                                    Contacts
+                                </a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </nav>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
     <section class="product-presentaintion-e-card">
@@ -101,21 +115,23 @@
     </section>
     <section class="phygital">
         <div class="container">
-            <div class="phygital-image">
-                <img src="../assets/images/how-it-works.gif" alt="phygital work visualization">
-            </div>
-            <div class="phygital-descr">
-                <h2 class="h2">
-                    How it Works
-                </h2>
-                <div class="text text-margin ta-center">
-                    Business card embedded with NFC tag opens access to digital advantages with just one tap of a smartphone.
+            <div class="phygital-wrapper reverse-direction">
+                <div class="phygital-item">
+                    <img src="../assets/images/how-it-works.gif" alt="phygital work visualization">
                 </div>
-                <div class="text text-margin ta-center">
-                    Compatible with iPhone and Android phones.
-                </div>
-                <div class="green text-margin ta-center">
-                    Without app installation!
+                <div class="phygital-item">
+                    <h2 class="h2">
+                        How it Works
+                    </h2>
+                    <div class="text text-margin ta-center">
+                        Business card embedded with NFC tag opens access to digital advantages with just one tap of a smartphone.
+                    </div>
+                    <div class="text text-margin ta-center">
+                        Compatible with iPhone and Android phones.
+                    </div>
+                    <div class="green text-margin ta-center">
+                        Without app installation!
+                    </div>
                 </div>
             </div>
         </div>
@@ -184,16 +200,18 @@
     </section>
     <section class="phygital">
         <div class="container">
-            <div class="phygital-descr">
-                <h2 class="h2">
-                    Get maximum from the first contact
-                </h2>
-                <div class="text text-margin ta-center">
-                    E-Card is a combined tool for company’s brand promotion that includes all the functions needed in everyday business.
+            <div class="phygital-wrapper">
+                <div class="phygital-item">
+                    <h2 class="h2">
+                        Get maximum from the first contact
+                    </h2>
+                    <div class="text text-margin ta-center">
+                        E-Card is a combined tool for company’s brand promotion that includes all the functions needed in everyday business.
+                    </div>
                 </div>
-            </div>
-            <div class="phygital-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/uhSzlCxgfIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="phygital-item phygital-video">
+                    <iframe src="https://www.youtube.com/embed/uhSzlCxgfIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </section>
@@ -204,7 +222,7 @@
                     E-Card Features
                 </h2>
             </header>
-            <div class="phygital-wrapper">
+            <div class="phygital-wrapper reverse-direction">
                 <div class="phygital-item phygital-image">
                     <img src="../assets/images/e-card-feat.gif" alt="phygit benefits installation">
                 </div>
@@ -244,7 +262,7 @@
     </section>
     <section class="phygital">
         <div class="container container-column">
-            <div class="phygital-wrapper">
+            <div class="phygital-wrapper reverse-direction">
                 <div class="phygital-item phygital-image">
                     <img src="../assets/images/e-card-product-page.gif" alt="e-card product page demo">
                 </div>
@@ -354,7 +372,7 @@
     <section class="phygital section">
         <div class="container container-column">
             <div class="phygital-wrapper">
-                <div class="phygital-descr">
+                <div class="phygital-item">
                     <h2 class="h2">
                         Let's Make Business Together!
                     </h2>
@@ -401,22 +419,22 @@
                         phygit
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#about">
                             About
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#useCases">
                             Use Cases
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#sliderSection">
                             Benefits
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../index.html#start">
                             How to Start
                         </a>
                     </li>
@@ -426,17 +444,17 @@
                         products
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../products/e-card.html">
                             E-Card
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../products/e-label.html">
                             E-Label
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../products/e-video.html">
                             E-Video
                         </a>
                     </li>
@@ -446,22 +464,22 @@
                         INFO
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/help-center.html">
                             Help Center
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/technology.html">
                             Technology
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/contacts.html">
                             About Us
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../info/contacts.html#contacts">
                             Contacts
                         </a>
                     </li>
@@ -471,12 +489,12 @@
                         LEGAL
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../home/privacy-policy.html">
                             Privacy Policy
                         </a>
                     </li>
                     <li class="footer-list-item">
-                        <a class="footer-list-link" href="#">
+                        <a class="footer-list-link" href="../home/terms.html">
                             Terms of Use
                         </a>
                     </li>
@@ -511,5 +529,7 @@
     </footer>
     <script type="module" src="../js/swiper/swiper-bundle.min.js" defer></script>
     <script type="module" src="./product.js" defer></script>
+    <script type="module" src="../js/header.js" defer></script>
+    <script type="module" src="../js/header.js" defer></script>
 </body>
 </html>

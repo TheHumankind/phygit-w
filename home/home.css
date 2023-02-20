@@ -32,3 +32,10 @@
     background-repeat: no-repeat;
     background-image: url('../assets/images/private.png');
 }
+
+
+@media (max-width: 991px)  {
+    div .text {
+        text-align: left;
+    }
+}

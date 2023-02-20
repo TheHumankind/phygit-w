@@ -146,6 +146,17 @@ select {
     text-align: center;
 }
 
+.phygital-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.phygital-video iframe {
+    margin: 0;
+}
+
 @media (max-width: 767px)  {
     
     .phygital {

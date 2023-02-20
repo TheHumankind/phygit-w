@@ -8,6 +8,17 @@ const products = new Swiper('.swiper-idea', {
     slidesPerView: 3,
     spaceBetween: 30,
     autoplay: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 3
+        },
+        600: {
+            slidesPerView: 2
+        },
+        320: {
+            slidesPerView: 1
+        }
+    }
 });
 
 console.log(products);
