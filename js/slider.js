@@ -1,19 +1,19 @@
 const messagesArr = [
     {
         description: 'Physical products sell themselves with digital personalization',
-        imageName: 'slider-image-01.png',
+        imageName: 'slider-image-01.webp',
     },
     {
         description: 'Boost sales via 2-way communication between a brand and end customers',
-        imageName: 'slider-image-02.png',
+        imageName: 'slider-image-02.webp',
     },
     {
         description: 'Strengthen your team via swag with digital personalization',
-        imageName: 'slider-image-03.png'
+        imageName: 'slider-image-03.webp'
     },
     {
         description: 'Empower your products or services with the emotions of your customers',
-        imageName: 'slider-image-04.png'
+        imageName: 'slider-image-04.webp'
     }
 ]
 
