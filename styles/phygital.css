@@ -83,10 +83,16 @@
     flex-wrap: 1;
 }
 
-.phygital-item > img{
+.phygital-item > video {
     width: 100%;
     border-radius: 10px;
 }
+
+.phygital-item > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 .phygital-item-100 {
     flex-basis: 100%;
