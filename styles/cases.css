@@ -66,3 +66,9 @@
     font-weight: 700;
     color: var(--main-text-color);
 }
+
+@media (max-width: 768px) {
+    .use-cases-section {
+        padding: 50px 30px;
+    }
+}

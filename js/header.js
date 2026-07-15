@@ -1,15 +1,33 @@
-const burgerItem = document.getElementById('burger');
-const navMenu = document.getElementById('navMenu');
-const headerNavItems = document.querySelectorAll('.close');
 
-burgerItem.addEventListener('click', () => {
-    burgerItem.classList.toggle('burger-cross')
-    navMenu.classList.toggle('header-on');
-})
+document.addEventListener('DOMContentLoaded', () => {
+    bindHeaderEvents();
+});
 
-headerNavItems.forEach((e) => {
-    e.addEventListener('click', () => {
-        burgerItem.classList.remove('burger-cross')
-        navMenu.classList.remove('header-on');
-    })
-})
+
+function bindHeaderEvents() {
+    let dropdownArray = document.querySelectorAll('.dropdown');
+
+    const burgerMenu = document.getElementById('burgerMenu');
+    const navMenu = document.getElementById('headerList');
+    burgerMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        burgerMenu.classList.toggle('active');
+    });
+
+    const navMenuItems = document.querySelectorAll('.header-nav-item');
+
+    navMenuItems.forEach((parentEl) => {
+        let dropdown = parentEl.querySelector('.dropdown')
+        if (dropdown) {
+            parentEl.addEventListener('click', () => {
+                dropdownArray.forEach((arrayEl) => {
+                    if (arrayEl !== dropdown) {
+                        arrayEl.classList.remove('active');
+                    }
+                });
+                dropdown.classList.toggle('active');
+            })
+            
+        }
+    });
+}

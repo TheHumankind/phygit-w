@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    row-gap: 60px;
     column-gap: 32px;
     row-gap: 60px;
     margin-top: 60px;
@@ -19,6 +20,7 @@
 .solutions-item {
     position: relative;
     max-width: 368px;
+    min-width: 268px;
     width: 100%;
 }
 
@@ -36,9 +38,9 @@
     position: absolute;
     bottom: 0;
     left: 50%;
+    width: 90%;
     max-width: 332px;
-    width: 110%;
-    height: 88px;
+    min-height: 88px;
     padding: 15px;
     background-color: var(--main-phygit-color);
     text-align: center;
@@ -53,13 +55,15 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
-@media (max-width: 768px)  { 
-    .solutions-item  .bold-24px {
-        margin: 0;
+@media (max-width: 768px) {
+    .solutions {
+        padding: 20px 30px;
     }
 
-    .solutions-item span {
-        display: block;
-        text-align: center;
+    .solutions-list {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 55px;
     }
 }
