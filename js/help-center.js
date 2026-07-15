@@ -46,6 +46,17 @@ const instructionOne = new Swiper('.swiper-instruction-1', {
     slidesPerView: 3,
     spaceBetween: 30,
     autoplay: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+        },
+        600: {
+            slidesPerView: 2,
+        },
+        320: {
+            slidesPerView: 1,
+        }
+    }
 });
 
 const instructionTwo = new Swiper('.swiper-instruction-2', {
@@ -57,6 +68,17 @@ const instructionTwo = new Swiper('.swiper-instruction-2', {
     slidesPerView: 3,
     spaceBetween: 30,
     autoplay: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+        },
+        600: {
+            slidesPerView: 2,
+        },
+        320: {
+            slidesPerView: 1,
+        }
+    }
 });
 
 const instructionThree = new Swiper('.swiper-instruction-3', {
@@ -68,6 +90,17 @@ const instructionThree = new Swiper('.swiper-instruction-3', {
     slidesPerView: 3,
     spaceBetween: 30,
     autoplay: true,
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
+        },
+        600: {
+            slidesPerView: 2,
+        },
+        320: {
+            slidesPerView: 1,
+        }
+    }
 });
 
 const compatibilityItems = document.querySelectorAll('.compatibility-list-item');

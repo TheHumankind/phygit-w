@@ -45,6 +45,7 @@
 
 .product-subheader {
     font-size: 24px;
+    text-align: center;
 }
 
 .swiper-idea {
@@ -61,7 +62,8 @@
 }
 
 .product-list-item {
-
+    max-width: 30%;
+    min-width: 240px;
     text-align: center;
 }
 
@@ -69,7 +71,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 270px;
+    width: 260px;
 }
 
 .product-item > img {
@@ -107,6 +109,7 @@
 .product-partners-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     flex-wrap: wrap;
     column-gap: 30px;
     margin-top: 60px;

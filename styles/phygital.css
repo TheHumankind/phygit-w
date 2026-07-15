@@ -56,6 +56,7 @@
 
 .phygital-formula {
     margin-top: 30px;
+    text-align: center;
 }
 
 .phygital-form {
@@ -63,7 +64,6 @@
     flex-direction: column;
     row-gap: 24px;
     padding: 24px;
-    height: 540px;
     border-radius: 8px;
     background-color: var(--bg-gray);
     box-shadow: 0 5px 11.2px 2.8px rgb(136 140 133 / 12%);
@@ -103,10 +103,16 @@
     flex-wrap: 1;
 }
 
-.phygital-item > img{
+.phygital-item > video {
     width: 100%;
     border-radius: 10px;
 }
+
+.phygital-item > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 .phygital-item-100 {
     flex-basis: 100%;
@@ -159,36 +165,4 @@ select {
 .align-items-start {
     align-items: flex-start;
     max-width: 95%
-}
-
-@media (max-width: 768px) {
-    .phygital {
-        padding: 40px 30px;
-    }
-    .phygital > .container {
-        flex-direction: column;
-        row-gap: 40px;
-    }
-
-    .descr-block {
-        flex-direction: column;
-    }
-
-    .phygital-descr, .phygital-image {
-        width: 100%;
-    }
-
-    .phygital-wrapper {
-        flex-direction: column;
-        row-gap: 30px;
-    }
-
-    .phygital-item {
-        max-width: 100%;
-        flex-basis: 100%;
-    }
-
-    .phygital-video > iframe {
-        margin-left: 0;
-    }
 }

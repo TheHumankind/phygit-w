@@ -42,7 +42,9 @@ ul {
 
 .container {
     max-width: 1215px;
-    width: 100%;
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .container-column {
@@ -108,6 +110,7 @@ ul {
     font-size: 24px;
     text-align: right;
     font-weight: 700;
+    line-height: 32px;
 }
 
 
@@ -118,15 +121,10 @@ ul {
     line-height: 31px;
 }
 
-.card-header, .card-subheader {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-}
-
-.card-subheader {
+.bold-14px {
     width: 100%;
     font-size: 14px;
+    font-weight: 700;
     margin-left: 4px;
     text-align: left;
     text-transform: uppercase;
@@ -141,9 +139,6 @@ ul {
 }
 
 .text {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     width: 100%;
     font-size: 18px;
     font-weight: 400;
@@ -217,6 +212,11 @@ ul {
 .ta-center {
     text-align: center;
 }
+
+.ta-left {
+    text-align: left;
+}
+
 
 .icon-box {
     position: relative;
