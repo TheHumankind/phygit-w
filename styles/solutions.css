@@ -10,6 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 60px;
     column-gap: 32px;
     margin-top: 60px;
 }
@@ -17,6 +19,7 @@
 .solutions-item {
     position: relative;
     max-width: 368px;
+    min-width: 268px;
     width: 100%;
 }
 
@@ -34,8 +37,9 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 332px;
-    height: 88px;
+    width: 90%;
+    max-width: 332px;
+    min-height: 88px;
     padding: 15px;
     background-color: var(--main-phygit-color);
     text-align: center;
@@ -48,4 +52,17 @@
     justify-content: center;
     align-items: flex-end;
     background-color: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    .solutions {
+        padding: 20px 30px;
+    }
+
+    .solutions-list {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 55px;
+    }
 }
